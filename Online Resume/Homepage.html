@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Resume - Homepage</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: #37aa37;
+      font-family: 'Times New Roman', Times, serif;
+      color: white;
+      outline: 5px;
+      outline-style: double;
+      outline-color: slategrey;
+    }
+
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      background-color: black;
+    }
+
+    .header {
+      padding: 80px;
+      text-align: center;
+      background: black;
+      color: white;
+    }
+
+    .header h1 {
+      font-size: 85px;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #2d2d2d;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-size: x-large;
+    }
+
+    .navbar a:hover {
+      background-color: #178817;
+      color: white;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .side {
+      flex: 30%;
+      background-color: black;
+      padding: 20px;
+      color: white;
+    }
+
+    .main {
+      flex: 70%;
+      background-color: black;
+      padding: 20px;
+      color: white;
+    }
+
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: black;
+      color: white;
+    }
+
+    @media screen and (max-width: 700px) {
+      .row {
+        flex-direction: column;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .navbar a {
+        float: none;
+        width: 100%;
+      }
+    }
+
+    p {
+      background-color: #2d2d2d;
+      outline: 2px;
+      outline-style: outset;
+      outline-color: snow;
+      word-break: normal;
+      font-size: large;
+    }
+
+    h2 {
+      outline: 2px;
+      outline-style: outset;
+      outline-color: snow;
+      word-break: normal;
+    }
+
+    h3 {
+      outline: 2px;
+      outline-style: outset;
+      outline-color: snow;
+      word-break: normal;
+    }
+
+    h4 {
+      outline: 2px;
+      outline-style: outset;
+      outline-color: snow;
+      word-break: normal;
+    }
+
+    h6 {
+      outline: 2px;
+      outline-style: outset;
+      outline-color: snow;
+      word-break: normal;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>My Resume</h1>
+    <p>This is my virtual resume.</p>
+  </div>
+
+  <div class="navbar">
+    <a class="active" href="Homepage.html">Home</a>
+    <a href="Skills.html">Skills</a>
+    <a href="Experience.html">Experience</a>
+  </div>
+
+  <div class="row">
+    <div class="side">
+      <h2>Spencer Langdon</h2>
+      <img src="Images/spencer.jpg" height="400px">
+      <h6>This photo was taken during my baseball tournament
+        that was held on September 9th, 2023.</h6>
+      <h2>More Info:</h2>
+      <p>Currently Unemployed</p>
+      <p>Lives in Hamilton, Ontario</p>
+      <p>Email: 2007slang@gmail.com</p>
+      <p>Phone #: 905-407-3460</p>
+    </div>
+    <div class="main">
+      <h2>Summary</h2>
+      <p>My name is Spencer Langdon. I am sixteen years old, and I am a very boring person. I
+        have ASD and ADHD, and am extremely antisocial. I am in grade 11 at Nora
+        Frances Henderson Secondary School. I am also enrolled
+        in the Information and Communications Technology SHSM. I am currently unemployed,
+        and I figured I should get a job sooner or later as right now I kind of just sit
+        at home and collect dust.
+      </p>
+      <p>I have decent communication, collaboration, and independence skills and I am
+        trying to not mess that up. I feel I need to work on my organization and communication
+        though, as I am a very messy person and although I have some level of communication it
+        can still be difficult for me to put my thoughts into words and that often leads to me being
+        quiet and distant. I am also not the best at describing myself so this resume kinda sucks.
+      </p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <h2>Homepage</h2>
+  </div>
+
+</body>
+
+</html>

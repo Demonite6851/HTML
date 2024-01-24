@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Resume - Experience</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #37aa37;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    outline: 5px;
+    outline-style: double;
+    outline-color: slategrey;
+}
+
+body {
+  font-family:'Times New Roman', Times, serif;
+  margin: 0;
+  background-color: black;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 85px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #2d2d2d;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #178817;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+p{
+    background-color: #2d2d2d;
+    outline: 2px;
+    outline-style: outset;
+    outline-color: snow;
+    word-break: normal;
+    font-size: large;
+}
+h2{
+    outline: 2px;
+    outline-style: outset;
+    outline-color: snow;
+    word-break: normal;
+}
+h3{
+    outline: 2px;
+    outline-style: outset;
+    outline-color: snow;
+    word-break: normal;
+}
+h4{
+    outline: 2px;
+    outline-style: outset;
+    outline-color: snow;
+    word-break: normal;
+}
+h6{
+    outline: 2px;
+    outline-style: outset;
+    outline-color: snow;
+    word-break: normal;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Resume</h1>
+  <p>This is my virtual resume.</p>
+</div>
+
+<div class="navbar">
+  <a href="Homepage.html">Home</a>
+  <a href="Skills.html">Skills</a>
+  <a class="active" href="Experience.html">Experience</a>
+</div>
+
+<div class="row">
+    <div class="side">
+        <h2>Spencer Langdon</h2>
+        <img src="Images/spencer.jpg"height="400px">
+        <h6>This photo was taken during my baseball tournament that was 
+            held on September 9th, 2023.</h6>
+        <h2>More Info:</h2>
+        <p>Currently Unemployed</p>
+        <p>Lives in Hamilton, Ontario</p>
+        <p>Email: 2007slang@gmail.com</p>
+        <p>Phone #: 905-407-3460</p>
+      </div>
+  <div class="main">
+    <h2>My Experience</h2>
+    <p>I have no actual work experience, but I do have other experience that might
+         benefit me when I am working. For example, I play baseball in the summer which 
+         has helped me build my teamwork, collaboration, and communication skills. It's the
+         only sport I've really gotten the feeling for, and I love it a lot. I will likely
+         play again in 2024, but I'm getting a bit old for the league I'm in.
+    </p>
+    <p>I guess just being in school might count as some sort of experience with all of the group
+        work and other stuff, but I personally don't think it does. I'm also not going to just make
+        up random amounts of experience that I've had either, as I don't feel that would really 
+        improve the quality of this resume.
+    </p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Experience</h2>
+</div>
+
+</body>
+</html>

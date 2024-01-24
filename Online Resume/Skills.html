@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Resume - Skills</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #37aa37;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    outline: 5px;
+    outline-style: double;
+    outline-color: slategrey;
+}
+
+body {
+  font-family:'Times New Roman', Times, serif;
+  margin: 0;
+  background-color: black;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 85px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #2d2d2d;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #178817;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+p{
+    background-color: #2d2d2d;
+    outline: 2px;
+    outline-style: outset;
+    outline-color: snow;
+    word-break: normal;
+    font-size: large;
+}
+h2{
+    outline: 2px;
+    outline-style: outset;
+    outline-color: snow;
+    word-break: normal;
+}
+h3{
+    outline: 2px;
+    outline-style: outset;
+    outline-color: snow;
+    word-break: normal;
+}
+h4{
+    outline: 2px;
+    outline-style: outset;
+    outline-color: snow;
+    word-break: normal;
+}
+h6{
+    outline: 2px;
+    outline-style: outset;
+    outline-color: snow;
+    word-break: normal;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Resume</h1>
+  <p>This is my virtual resume.</p>
+</div>
+
+<div class="navbar">
+  <a href="Homepage.html">Home</a>
+  <a class="active" href="Skills.html">Skills</a>
+  <a href="Experience.html">Experience</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Spencer Langdon</h2>
+    <img src="Images/spencer.jpg"height="400px">
+    <h6>This photo was taken during my baseball tournament 
+      that was held on September 9th, 2023.</h6>
+        <h2>More Info:</h2>
+        <p>Currently Unemployed</p>
+        <p>Lives in Hamilton, Ontario</p>
+        <p>Email: 2007slang@gmail.com</p>
+        <p>Phone #: 905-407-3460</p>
+  </div>
+  <div class="main">
+    <h2>Collaboration</h2>
+    <p>I have pretty good collaboration skills as I have played baseball
+       on a team over the summer for the past two years. I am also not the kind of person
+       who will go out of my way to get what I want. I am  almost alturistic
+        unintentionally in certain scenarios, mainly when people are visibly hurt 
+        whether its physical or emotional.
+      </p>
+    <p>I say "alturistic" because I often forget what I'm doing and try 
+      to help calm them down. It might land me in hot water down the road,
+       but I can't stand people being unhappy. Even if I don't like them
+        at all, I'd still rather them be smiling than crying.
+    </p>
+    <br>
+    <h2>Independence</h2>
+    <p>Since I am so antisocial, I've grown to love working independently.
+       There is less talking and I usually don't have to rely on anyone else
+       to get my work done.
+       It does mean that I can get off track and distracted easier as 
+      there is nobody to keep me focused. But if the environment is quiet enough, 
+      that isn't an issue as there are a lot less distractions.
+    </p>
+    <p>I will always prefer independent work over group work, but I am
+       in no way against it. If I need to work on a team or in a group, I 
+       will still try to be helpful to everyone. But sometimes
+      working in a group can be a lot harder for me as sometimes people 
+      are lazy and cut corners which leaves other people to pick up the slack. 
+      I usually don't care about it, but if other people
+      do, I feel obligated to work more to help alleviate any stress. This can sometimes lead to
+       me being so focused on helping them that I forget about the work I was 
+       supposed to be doing.
+    </p>
+    <br>
+    <h2>Computers</h2>
+    <p>I love working with computers. I love learning about the hardware, the
+       software, the code, and the terminology that goes with it.
+      I am hoping to become a computer programmer in the future. Preferably
+       after college, but it likely will take a but longer. I often spend my 
+       free time coding or playing games on a computer, and 
+      although I am a good programmer, I still have a long way to go before
+       I can think about making it my profession. I am only know a bit of HTML, a 
+       decent portion of Python, and a very small bit of
+      C#.
+    </p>
+    <p>Unfortunately, my ambition to become a programmer someday means I often
+       overestimate my abilities and start projects that would be almost impossible
+       to comprehend at my current skill level. This overconfidence is something I'm trying
+       to get rid of as soon as possible as it will likely become a serious problem in the future.
+    </p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Skills</h2>
+</div>
+
+</body>
+</html>
