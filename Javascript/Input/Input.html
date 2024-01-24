@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: black;
+            font-family: helvetica-bold;
+            
+        }
+
+        h1 {
+            color: snow;
+            font-size: 120px;
+            border-color: snow;
+            border-style:double;
+        }
+
+        button {
+            color: snow;
+            background-color: black;
+            border-color: snow;
+            font-size: 150%;
+            font-family: helvetica-bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="counter">Counter: 0</h1>
+    <button onclick="countUp()">Count Up</button>
+    <br>
+    <button onclick="countDown()">Count Down</button>
+    <br>
+    <br>
+    <button onclick="countDouble()">Double Count</button>
+    <br>
+    <button onclick="countHalf()">Half Count</button>
+    <br>
+    <br>
+    <button ondblclick="resetCount()">Reset</button>
+</body>
+<script src="counterScript.js"></script>
+
+</html>

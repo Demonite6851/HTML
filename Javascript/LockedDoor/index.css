@@ -1,0 +1,29 @@
+img {
+    padding-left: 43%;
+}
+body {
+    background-color: black;
+    border-color: snow;
+    font-family: 'Times New Roman', Times, serif;
+}
+button {
+    color: snow;
+    background-color: black;
+    border-color: snow;
+    font-size: 215%;
+    transform: translate(840px);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+button:hover {
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+h1 {
+    color: snow;
+    text-align: center;
+
+}
